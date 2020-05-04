@@ -32,13 +32,19 @@ Challenge automated Pipeline Jupyter NoteBooks challenge.ipynb
 
 Assumption 1:Input data resources are keeping same formats, same columns name, 
                 same column's order and same data types.
+                
 Assumption 2: wiki_data has same alternate titles
+
 Assumption 3: wiki_data: 'Box_office', 'Budget','release date' and 'running_time 'columns 
                 have consistent data types and format followed by assumed Regex rules
+                
 Assumption 4: kaggle_data: 'budget', 'id', 'popularity' and 'release_date' columns
                 have consistent and appropriate data types, no any errors would be raised.
                 when use astype(), to_numeric() and to_datetime() funtions.
-Assumption 5: The common column for merge dataframe would be unchanged. 
-                Merge two dataframes, wiki_data and kaggle_data, woulbe be on 'imdb_id' column.
+                
+Assumption 5: The common column for merge dataframe would be unchanged. Merge two dataframes, 
+              wiki_data and kaggle_data, woulbe be on 'imdb_id' column.
+                
 Assumption 6: The movielens_ratings dataset would be able to groupby two columns 'movieId','rating'.
+
 Assumption 7: The PostgreSQL owner and server names keep unchanged. 
