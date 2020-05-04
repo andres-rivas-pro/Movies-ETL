@@ -11,7 +11,7 @@ a large unstructure csv file from MovieLens with movie rating information (ratin
 
 Outputs:
 
-ETL Jupyter NoteBooks movies_ETL.ipynb
+ETL Jupyter NoteBooks Amazing Hackathon.ipynb
 
 # Challenge
 
